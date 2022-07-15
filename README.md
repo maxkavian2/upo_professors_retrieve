@@ -7,4 +7,4 @@ Move to the folder and execute
 bash osint.sh | tee "log$(date +%d_%m_%Y)"
 
 # Output
-Quoted tabular-separated fields are, by this order: surname, name, area, category, email, phone, office. The results are appended to the file "results". 
+Quoted tabular-separated fields are located by columns in this order: surname, name, area, category, email, phone, office. The results are appended to the file "results". 
