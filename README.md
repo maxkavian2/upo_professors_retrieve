@@ -7,4 +7,4 @@ Move to the folder and execute
 bash osint.sh | tee "log$(date +%d_%m_%Y)"
 
 # Output
-quoted tabular-separated fields are, in this order: surname, name, area, category, email, phone, office
+Quoted tabular-separated fields are, in this order: surname, name, area, category, email, phone, office
