@@ -1,5 +1,5 @@
 # upo_professors_retrieve
-Professor information retrieval tool for the Pablo de Olavide University (department of Molecular Biology and Biochemical Engineering)
+Professor information retrieval tool for the Pablo de Olavide University (so far it works for the department of Molecular Biology and Biochemical Engineering)
 
 # Run
 Move to the folder and execute
