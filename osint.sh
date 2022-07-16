@@ -10,8 +10,10 @@ declare -rx INFO="${STYINFO}[INFO]${STYEND}"
 declare -rx ERROR="${STYALERT}[ERROR]${STYEND}"
 
 # params -----------------
-declare -r DEPARTMENT="departamento-biologia-molecular-e-ingenieria-bioquimica"
-declare -r MAINPAGE="https://www.upo.es/<<DEPARTMENT>>/es/buscador-de-profesores/?buscadorprofesoresdepartamentofield-1=&numfield=1&searchaction=search&searchPage=<<REPLACE>>&submit=Buscar"
+#declare -r DEPARTMENT="departamento-biologia-molecular-e-ingenieria-bioquimica"
+declare -r DEPARTMENT="departamento-sistemas-fisicos-quimicos-y-naturales"
+#declare -r MAINPAGE="https://www.upo.es/<<DEPARTMENT>>/es/buscador-de-profesores/?buscadorprofesoresdepartamentofield-1=&numfield=1&searchaction=search&searchPage=<<REPLACE>>&submit=Buscar"
+declare -r MAINPAGE="https://www.upo.es/<<DEPARTMENT>>/es/personal/profesorado/?buscadorprofesoresdepartamentofield-1=&buscadorprofesoresdepartamentofield-2=&numfield=2&searchaction=search&searchPage=<<REPLACE>>&submit=Buscar#"
 declare -r DEFPAGEN="1" # the minimum number of the pagination list
 declare -r URLPREFIX="https://www.upo.es/profesorado/"
 declare -r PROFFILE="professors"
